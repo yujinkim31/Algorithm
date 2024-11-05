@@ -19,9 +19,12 @@ public class Main {
 
             sum += a * b;
         }
-        if (sum == X)
+        /*if (sum == X)
             System.out.println("Yes");
         else
-            System.out.println("No");
+            System.out.println("No");*/
+        
+        String printText = sum == X ? "Yes" : "No";
+        System.out.println(printText);
     }
 }
